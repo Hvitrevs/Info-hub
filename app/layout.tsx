@@ -10,15 +10,16 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
+  
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#020014] overflow-y overflow-x-hidden `}>
+      <body className={`${inter.className} bg-[#020014] overflow-y-scroll-hidden overflow-x-hidden select-none max-w-[1555px] max-h-[100px] mx-auto`}>
         {children}
-        </body>
+      </body>
     </html>
   );
 }
