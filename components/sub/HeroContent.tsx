@@ -15,7 +15,7 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
       <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
-        <div className='h-10 w-full flex md:inline-flex gap-5 justify-start text-start mt-25'>
+        <div className='h-7 w-full flex md:inline-flex gap-5 justify-start text-start mt-25'>
         <motion.div
           
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
@@ -54,7 +54,7 @@ const HeroContent = () => {
         >
           <span>
             Unravel
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-violet-500 ">
               {" "}
               the secrets{" "}
             </span>
@@ -69,7 +69,7 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] p-3 hover:bg-[#4c2784]  animate-pulse"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-xl max-w-[150px] p-2 hover:bg-[#4c2784]  animate-pulse"
         >
           Tell me!
         </motion.a>
