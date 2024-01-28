@@ -22,24 +22,24 @@ const HeroContent = () => {
         <motion.div
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] "
         >
-          <SparklesIcon className="text-[#b49bff] md:mr-[10px] md:h-5 md:w-5 xs:mr-[1px] xs:h-3 xs:w-3 xxs:w-2 xxs:mr-[1px]" />
-          <h1 className="Welcome-text md:text-[13px] mr-1 xs:text-[8px] xs:text-nowrap xs:mr-[1px] xxs:text-[5px]">
+          <SparklesIcon className="text-[#b49bff] xs:py-[3px] sm:py-[2px] md:mr-[10px] md:h-5 md:w-5 xs:mr-[1px] xs:h-3 xs:w-3 xxs:w-2 xxs:mr-[1px] xs:border-r-[1px] xs:border-[#7042f88b] opacity-[0.9]" />
+          <h1 className="Welcome-text md:text-[13px] mr-1 xs:text-[8px] xs:text-nowrap xs:mr-[1px] xs:ml-[2px] xxs:text-[5px]">
           Divine Agents Rulling
           </h1>
         </motion.div>
         <motion.div
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <TagIcon className="text-[#b49bff] md:mr-[10px] md:h-5 md:w-5 xs:mr-[1px] xs:h-3 xs:w-3 xxs:w-2 xxs:mr-[1px]" />
-          <h1 className="Welcome-text md:text-[13px] mr-1 xs:text-[8px] xs:text-nowrap xs:mr-[1px] xxs:text-[5px]">
+          <TagIcon className="text-[#b49bff] xs:py-[3px] sm:py-[2px] md:mr-[10px] md:h-5 md:w-5 xs:mr-[1px] xs:h-3 xs:w-3 xxs:w-2 xxs:mr-[1px] xs:border-r-[1px] xs:border-[#7042f88b] opacity-[0.9]" />
+          <h1 className="Welcome-text md:text-[13px] mr-1 xs:text-[8px] xs:text-nowrap xs:mr-[1px] xs:ml-[2px] xxs:text-[5px]">
           Tao
           </h1>
         </motion.div>
         <motion.div
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <StarIcon className="text-[#b49bff] md:mr-[10px] md:h-5 md:w-5 xs:mr-[1px] xs:h-3 xs:w-3 xxs:w-2 xxs:mr-[1px]" />
-          <h1 className="Welcome-text md:text-[13px] mr-1 xs:text-[8px] xs:text-nowrap xs:mr-[1px] xxs:text-[5px]">
+          <StarIcon className="text-[#b49bff] xs:py-[3px] sm:py-[2px] md:mr-[10px] md:h-5 md:w-5 xs:mr-[1px] xs:h-3 xs:w-3 xxs:w-2 xxs:mr-[1px] xs:border-r-[1px] xs:border-[#7042f88b] opacity-[0.9]" />
+          <h1 className="Welcome-text md:text-[13px] mr-1 xs:text-[8px] xs:text-nowrap xs:mr-[1px] xs:ml-[2px] xxs:text-[5px]">
           Sun & Moon
           </h1>
         </motion.div>
