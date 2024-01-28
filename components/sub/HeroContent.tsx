@@ -18,28 +18,28 @@ const HeroContent = () => {
 
         {/* tagclouds */}
         
-        <div className='md:h-7 flex  md:gap-5 justify-start text-start  xs:flex-nowrap xs:gap-[5px] xs:h-5 xs:mb-[5px] xs:mt-20 xxs:mt-40 xxs:h-4 xxs:gap-[2px]'>
+        <div className='md:h-7 flex  md:gap-5 justify-start text-start  xs:flex-nowrap xs:gap-[3px] xs:h-4  xs:mt-20 xxs:mt-40 xxs:h-4 xxs:gap-[2px]'>
         <motion.div
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] "
         >
-          <SparklesIcon className="text-[#b49bff] xs:py-[3px] sm:py-[2px] md:mr-[10px] md:h-5 md:w-5 xs:mr-[1px] xs:h-3 xs:w-3 xxs:w-2 xxs:mr-[1px] xs:border-r-[1px] xs:border-[#7042f88b] opacity-[0.9]" />
-          <h1 className="Welcome-text md:text-[13px] mr-1 xs:text-[8px] xs:text-nowrap xs:mr-[1px] xs:ml-[2px] xxs:text-[5px]">
+          <SparklesIcon className="text-[#b49bff] xs:py-[2px] sm:py-[2px] md:mr-[2px] md:h-4 md:w-4 xs:h-3 xs:w-3 xxs:w-2 xs:mr-[1px]" />
+          <h1 className="Welcome-text md:text-[13px] md:h-4 px-[5px] xs:text-[8px] xs:text-nowrap xxs:text-[5px] xxs:pr-0 border-l-[2px] border-[#7042f88b] opacity-[0.9]">
           Divine Agents Rulling
           </h1>
         </motion.div>
         <motion.div
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <TagIcon className="text-[#b49bff] xs:py-[3px] sm:py-[2px] md:mr-[10px] md:h-5 md:w-5 xs:mr-[1px] xs:h-3 xs:w-3 xxs:w-2 xxs:mr-[1px] xs:border-r-[1px] xs:border-[#7042f88b] opacity-[0.9]" />
-          <h1 className="Welcome-text md:text-[13px] mr-1 xs:text-[8px] xs:text-nowrap xs:mr-[1px] xs:ml-[2px] xxs:text-[5px]">
+          <TagIcon className="text-[#b49bff] xs:py-[3px] sm:py-[2px] md:mr-[2px] md:h-4 md:w-4 xs:h-3 xs:w-3 xxs:w-2" />
+          <h1 className="Welcome-text md:text-[13px] md:h-4 px-[5px] xs:text-[8px] xs:text-nowrap xxs:text-[5px] xxs:pr-0 border-l-[2px] border-[#7042f88b] opacity-[0.9]">
           Tao
           </h1>
         </motion.div>
         <motion.div
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <StarIcon className="text-[#b49bff] xs:py-[3px] sm:py-[2px] md:mr-[10px] md:h-5 md:w-5 xs:mr-[1px] xs:h-3 xs:w-3 xxs:w-2 xxs:mr-[1px] xs:border-r-[1px] xs:border-[#7042f88b] opacity-[0.9]" />
-          <h1 className="Welcome-text md:text-[13px] mr-1 xs:text-[8px] xs:text-nowrap xs:mr-[1px] xs:ml-[2px] xxs:text-[5px]">
+          <StarIcon className="text-[#b49bff] xs:py-[2px] sm:py-[2px] md:mr-[2px] md:h-4 md:w-4 xs:h-3 xs:w-3 xxs:w-2" />
+          <h1 className="Welcome-text md:text-[13px] md:h-4 px-[5px] xs:text-[8px] xs:text-nowrap xxs:text-[5px] xxs:pr-0 border-l-[2px] border-[#7042f88b] opacity-[0.9]">
           Sun & Moon
           </h1>
         </motion.div>
@@ -50,7 +50,7 @@ const HeroContent = () => {
 
         <motion.div
           
-          className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto md:text-[60px] xs:text-[35px] xs:mt-1 xxs:text-[25px]"
+          className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto md:text-[60px] xs:text-[30px] xs:mt-[3px] xxs:text-[25px]"
         >
           <span>
             Unravel
@@ -64,7 +64,7 @@ const HeroContent = () => {
 
         <motion.p
           
-          className=" text-gray-500 my-5 max-w-[600px] xs:text-sm xxs:my-1 md:text-lg xxs:text-[15px]"
+          className=" text-gray-500 my-5 max-w-[600px] xs:text-[15px] xxs:my-2 md:text-lg xxs:text-[10px]"
         > Learn how to use ancient knowledge and powers to find a way to better life, prosperity and happiness.
         </motion.p>
         <motion.a
