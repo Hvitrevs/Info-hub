@@ -69,7 +69,7 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-2xl max-w-[150px] xxs:w-[100px] xxs:text-[15px] p-2 hover:bg-[#4c2784]  animate-pulse"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-2xl lg:text-[20px] md:w-[150px] xxs:w-[100px] xxs:text-[15px] p-2 hover:bg-[#4c2784]  animate-pulse"
         >
           Tell me!
         </motion.a>
