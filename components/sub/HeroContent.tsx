@@ -12,13 +12,13 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center md:px-20 md:mt-20 w-full z-[20] xs:px-10 xxs:px-10"
+      className="flex flex-row items-center justify-center md:px-20 md:mt-1 w-full z-[20] xs:px-10 xxs:px-10"
     >
-      <div className='md:h-full md:w-full flex flex-col gap-5 justify-center m-auto text-start xs:flex-nowrap xl:mt-[-60px] md:mt-[20px] xs:mt-[90px] sm:mt[-90px]'>
+      <div className='md:h-full md:w-full flex flex-col gap-5 justify-center m-auto text-start xs:flex-nowrap xl:mt-[10px] xs:mt-[20px] sm:mt[20px]'>
 
         {/* tagclouds */}
         
-        <div className='md:h-6 flex  md:gap-5 justify-start text-start  xs:flex-nowrap xs:gap-[3px] xs:h-4  xs:mt-20 xxs:mt-40 xxs:h-4 xxs:gap-[2px]'>
+        <div className='md:h-6 flex  md:gap-5 justify-start text-start  xs:flex-nowrap xs:gap-[3px] xs:h-4  xs:mt-20 xxs:mt-20 xxs:h-4 xxs:gap-[2px]'>
         <motion.div
           className="Welcome-box py-[8px] px-[6px] border border-[#7042f88b] opacity-[0.9] "
         >
@@ -50,7 +50,7 @@ const HeroContent = () => {
 
         <motion.div
           
-          className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto md:text-[60px] xs:text-[30px] xs:mt-[3px] xxs:text-[25px]"
+          className="flex flex-col gap-6 mt-4 text-5xl font-bold text-white max-w-[600px] w-auto h-auto md:text-[60px] xs:text-[30px] xs:mt-[3px] xxs:text-[25px]"
         >
           <span>
             Unravel
