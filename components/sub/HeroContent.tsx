@@ -12,7 +12,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center md:px-20 md:mt-1 w-full z-[20] xs:px-10 xxs:px-10"
+      className="flex flex-row items-center justify-center md:px-20 md:mt-20 w-full z-[20] xs:px-10 xxs:px-10"
     >
       <div className='md:h-full md:w-full flex flex-col gap-5 justify-center m-auto text-start xs:flex-nowrap xl:mt-[10px] xs:mt-[20px] sm:mt[20px]'>
 
@@ -77,7 +77,7 @@ const HeroContent = () => {
 
       <motion.div
       
-        className="w-full h-full flex justify-center items-center  xxs:invisible lg:visible"
+        className="w-full h-full flex justify-center items-center md:visible"
       >
         <Image className="filter saturate(200%)"
           src="/mainIconsdark.png "
