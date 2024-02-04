@@ -20,10 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#030213] overflow-y-scroll-hidden overflow-x-hidden select-none  mx-auto tracking-[.12em]`}>
+      <body className={`${inter.className} bg-[#030213] overflow-y-scroll-hidden overflow-x-hidden select-none  mx-auto tracking-[.13em]`}>
         <StarsCanvas />
-        <Hero />
         <Navbar />
+        <Hero />
         {children}
       </body>
     </html>
