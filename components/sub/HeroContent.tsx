@@ -77,13 +77,14 @@ const HeroContent = () => {
 
       <motion.div
       
-        className="w-full h-full flex justify-center items-center md:visible"
-      >
-        <Image className="filter saturate(200%)"
-          src="/mainIconsdark.png "
+        className="w-full h-full flex justify-center items-center md:visible perspective-5"
+          >
+        <Image
+          className="filter-grayscale opacity-[70%]  animate-bounce "
+          src="/mainIconsdark_1.svg"
           alt="icon"
-          height={650}
-          width={650}
+          height={450}
+          width={450}
         />
       </motion.div>
     </motion.div>

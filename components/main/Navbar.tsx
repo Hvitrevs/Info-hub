@@ -4,18 +4,19 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='w-full lg:h-[60px] fixed top-0 shadow-lg shadow-[#2a0e61]/50 bg-[#03001417] backdrop-blur-md z-50 md:px-40 xxs:px-[1px]'>
+    <div className='w-full lg:h-[55px] fixed top-0 shadow-lg shadow-[#2a0e61]/50 bg-[#03001417] backdrop-blur-md z-50 md:px-40 xxs:px-[1px]'>
       <div className="w-full h-full flex flex-row items-center justify-between m-auto md:px-[10px] lg:gap-2">
         <a
           href="#contact"
           className="h-auto w-auto flex flex-row items-centers "
         >
-          <StarIcon
-            width={25}
-            height={25}
-            className="cursor-pointer hover:animate-slowspin text-[#b49bff]"
+          <Image className=""
+            src="/mainIconsdark_1.svg"
+            alt="icon"
+            width={35}
+            height={35}
           />
-          <span className="font-bold md:ml-[10px] hidden md:block text-gray-300  lg:visible sm:invisible">
+          <span className="font-bold md:ml-[10px] mt-3 hidden md:block text-gray-300  lg:visible sm:invisible">
             Hoshi
           </span>
         </a>

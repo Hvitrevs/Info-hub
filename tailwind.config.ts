@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  mode: 'jit',
   theme: {
     screens: {
       'xxs': '180px',
@@ -17,6 +18,20 @@ const config: Config = {
       '2xl': '1536px',
     },
     extend: {
+      animation: {
+        
+        'bounce': 'bounce 8s ease-in-out infinite',
+      },
+      keyframes: {
+        bounce: {
+          '0%, 100%': {
+            transform: 'translateX(-1%) rotateZ(-2deg) translateY(-1%)',
+          },
+          '50%': {
+            transform: 'translateX(1%) rotateZ(2deg) translateY(1%)',
+          },
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -24,6 +39,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@kamona/tailwindcss-perspective'),
+  ],
 };
 export default config;
