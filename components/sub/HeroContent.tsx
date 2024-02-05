@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 import { SparklesIcon, StarIcon, TagIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
-import Tagclouds from "../wigets/Tagcloud";
+import Tagclouds from "../wigets/Tagclouds";
 
 const HeroContent = () => {
   return (
@@ -18,8 +18,21 @@ const HeroContent = () => {
       <div className='md:h-full md:w-full flex flex-col gap-5 justify-center m-auto text-start xs:flex-nowrap xl:mt-[10px] xs:mt-[20px] sm:mt[20px]'>
 
         {/* tagclouds */}
-        <div>
-        <Tagclouds />
+        <div className='md:h-6 flex  md:gap-5 justify-start text-start  xs:gap-[3px] xs:h-4  xs:mt-20 xxs:mt-20 xxs:h-4 xxs:gap-[2px]'>
+
+        <Tagclouds  
+        title={'Divine Agents Rulling'} 
+        icon={<SparklesIcon />} 
+        />
+        <Tagclouds 
+        title={'Tao'} 
+        icon={<TagIcon />} 
+        />
+        <Tagclouds
+        title={'Sun & Moon'} 
+        icon={<StarIcon />} 
+        />
+        
         </div>
             
 
