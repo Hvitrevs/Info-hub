@@ -18,11 +18,11 @@ const HeroContent = () => {
       <div className='md:h-full md:w-full flex flex-col gap-5 justify-center m-auto text-start xs:flex-nowrap xl:mt-[10px] xs:mt-[20px] sm:mt[20px]'>
 
         {/* tagclouds */}
-        
-        <div className='md:h-6 flex  md:gap-5 justify-start text-start  xs:flex-nowrap xs:gap-[3px] xs:h-4  xs:mt-20 xxs:mt-20 xxs:h-4 xxs:gap-[2px]'>
-            <Tagclouds />
-
+        <div>
+        <Tagclouds />
         </div>
+            
+
         
         {/* hero text  */}
 
