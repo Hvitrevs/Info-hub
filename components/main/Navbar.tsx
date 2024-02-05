@@ -4,11 +4,11 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='w-full lg:h-[55px] fixed top-0 shadow-lg shadow-[#2a0e61]/50 bg-[#03001417] backdrop-blur-md z-50 md:px-40 xxs:px-[1px]'>
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto md:px-[10px] lg:gap-2">
+    <div className='w-full xl:h-[55px] md:py-5 xxs:h-[35px] fixed top-0 shadow-lg shadow-[#2a0e61]/50 bg-[#03001417] backdrop-blur-md z-50 lg:px-40 sm:px-[180px] xxs:px-[30px]'>
+      <div className="w-full h-full flex flex-row items-center justify-between m-auto lg:gap-4 ">
         <a
           href="#contact"
-          className="h-auto w-auto flex flex-row items-centers "
+          className="h-auto w-auto flex flex-row items-centers xs:mr-3"
         >
           <Image className=""
             src="/mainIconsdark_1.svg"
@@ -16,12 +16,12 @@ const Navbar = () => {
             width={35}
             height={35}
           />
-          <span className="font-bold md:ml-[10px] mt-3 hidden md:block text-gray-300  lg:visible sm:invisible">
+          <span className="font-bold md:ml-[20px]  mt-2 hidden lg:block text-gray-300 lg:visible sm:invisible">
             Hoshi
           </span>
         </a>
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] md:py-[6px] rounded-full text-[#ffffff] md:text-[15px] xs:text-[10px] xxs:text-[6px]">
+        <div className="w-[500px] h-full flex flex-row items-center justify-between lg:mr-10" >
+          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] md:mr-[15px] md:px-[20px] md:py-[5px] rounded-full text-[#ffffff] lg:text-[15px] md:text-[14px] xs:text-[10px] xs:px-[15px] xs:py-[4px] xxs:text-[6px] md:gap-4">
             <a href="#readings" className="cursor-pointer">
               Read
             </a>

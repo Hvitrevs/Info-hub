@@ -77,10 +77,10 @@ const HeroContent = () => {
 
       <motion.div
       
-        className="w-full h-full flex justify-center items-center md:visible perspective-5"
+        className="w-full h-full flex justify-center items-center lg:visible md:invisible perspective-5"
           >
         <Image
-          className="filter-grayscale opacity-[70%]  animate-bounce "
+          className="filter-grayscale opacity-[80%]  animate-bounce"
           src="/mainIconsdark_1.svg"
           alt="icon"
           height={450}
